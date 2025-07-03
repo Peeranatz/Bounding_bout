@@ -1,7 +1,7 @@
 from robomaster import robot
 import time
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     ep_robot = robot.Robot()
     ep_robot.initialize(conn_type="ap")
 
